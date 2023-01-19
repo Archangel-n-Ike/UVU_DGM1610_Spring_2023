@@ -1,4 +1,5 @@
 using System;
+
 namespace MyApplication
 {
     class Program
@@ -23,7 +24,14 @@ namespace MyApplication
     {
         static void Main(string[] args)
         {
-            console.writeline("Doesn't seem like it");
+            Console.Writeline("Doesn't seem like it");
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Writeline("I was wrong, it does matter");
         }
     }
 }
