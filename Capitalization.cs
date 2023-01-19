@@ -15,7 +15,7 @@ namespace MyApplication
     {
         static void Main(string[] args)
         {
-            Console.Writeline("Does Capitalization Matter?");
+            Console.WriteLine("Does Capitalization Matter?");
         }
     }
 
@@ -24,14 +24,15 @@ namespace MyApplication
     {
         static void Main(string[] args)
         {
-            Console.Writeline("Doesn't seem like it");
+            Console.WriteLine("Doesn't seem like it");
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Writeline("I was wrong, it does matter");
+            // Capitalization matters a lot
+            Console.WriteLine("I was wrong, it does matter");
         }
     }
 }
