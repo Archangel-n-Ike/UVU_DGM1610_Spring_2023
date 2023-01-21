@@ -1,12 +1,14 @@
 using System;
 
-namespace MyApplication
+using Capitalization;
+
+namespace MathStart
 {
-    class Program
+    class SimpleMath
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
-            Console.Writeline(4+5);
+            Console.WriteLine(4+5);
         }
     }
 }
