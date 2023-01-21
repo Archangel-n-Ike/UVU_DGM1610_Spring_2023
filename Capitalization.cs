@@ -1,37 +1,36 @@
 using System;
 
-namespace Capitalization
+namespace Capitalization;
+
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World");
-        }
+        Console.WriteLine("Hello World");
     }
+}
 
 
-    class Program2
+class Program2
+{
+    static void run(string[] args)
     {
-        static void run(string[] args)
-        {
-            Console.WriteLine("Does Capitalization Matter?");
-        }
+        Console.WriteLine("Does Capitalization Matter?");
     }
+}
 
-    class Program3
+class Program3
+{
+    static void run(string[] args)
     {
-        static void run(string[] args)
-        {
-            Console.WriteLine("Doesn't seem like it");
-        }
+        Console.WriteLine("Doesn't seem like it");
     }
-    class Program4
+}
+class Program4
+{
+    static void run(string[] args)
     {
-        static void run(string[] args)
-        {
-            // Capitalization matters a lot
-            Console.WriteLine("I was wrong, it does matter");
-        }
+        // Capitalization matters a lot
+        Console.WriteLine("I was wrong, it does matter");
     }
 }
