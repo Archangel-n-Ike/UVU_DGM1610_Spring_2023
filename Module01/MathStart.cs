@@ -1,7 +1,5 @@
 using System;
 
-using Capitalization;
-
 namespace MathStart
 {
     class SimpleMath
