@@ -1,0 +1,14 @@
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\bin\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.exe
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\bin\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.deps.json
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\bin\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.runtimeconfig.json
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\bin\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.runtimeconfig.dev.json
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\bin\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.dll
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\bin\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.pdb
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.csproj.AssemblyReference.cache
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.AssemblyInfoInputs.cache
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.AssemblyInfo.cs
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.csproj.CoreCompileInputs.cache
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.dll
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.pdb
+C:\Users\migue\Documents\School\GithubStuff\DGM1610\UVU_DGM1610_Spring_2023\Module01\obj\Debug\netcoreapp3.1\UVU_DGM1610_Spring_2023.genruntimeconfig.cache
