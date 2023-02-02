@@ -22,7 +22,7 @@ namespace Lab1c
         {
             string[] cars = {"Mustang", "Camaro", "Hellcat", "Corvette", "Viper", "McLaren"};
             Console.WriteLine(cars.Length);
-            foreach(var car in cars)
+            foreach (var car in cars)
             {
                 Console.WriteLine("I love my " + car + ".");
             }
@@ -41,7 +41,7 @@ namespace Lab1c
                 playerTypes[i] = "Queen";
             }
 
-            foreach(var playerType in playerTypes)
+            foreach (var playerType in playerTypes)
             {
                 Console.WriteLine(playerType);
             }
@@ -71,5 +71,47 @@ namespace Lab1c
     {
         public string weaponName = "Axe";
         public int powerLevel = 1;
+    }
+
+    class Program5
+    {
+        static void Main(string[] args)
+        {
+            int i = 0;
+            while (i < 5)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+        }
+    }
+    
+    class Program6
+    {
+        static void Main(string[] args)
+        {
+            int i = 0;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            while (i < 5);
+        }
+    }
+
+    class Program7
+    {
+        static void Main(string[] args)
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                if (i == 4)
+                {
+                    continue;  // break and continue can also be used in while loops
+                }
+                Console.WriteLine(i);
+            }
+        }
     }
 }
