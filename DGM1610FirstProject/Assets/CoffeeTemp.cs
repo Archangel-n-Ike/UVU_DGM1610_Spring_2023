@@ -5,8 +5,8 @@ using UnityEngine;
 public class CoffeeTemp : MonoBehaviour
 {
     float coffeeTemperature = 85.0f;
-    readonly float hotLimitTemperature = 70.0f;
-    readonly float coldLimitTemperature = 40.0f;
+    float hotLimitTemperature = 70.0f;
+    float coldLimitTemperature = 40.0f;
 
     // Update is called once per frame
     void Update()
