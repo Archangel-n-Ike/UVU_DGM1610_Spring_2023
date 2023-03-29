@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float xRange;
     public Transform blaster;
     public GameObject laser;
+    public GameObject shield;
 
     void Update()
     {
