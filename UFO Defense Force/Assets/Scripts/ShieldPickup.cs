@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class ShieldPickup : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class ShieldPickup : MonoBehaviour
 
     void Pickup()
     {
-        Debug.Log ("Shield get!");
+        Debug.Log ("Shield get! (+50 hp)");
     }
+
 }
