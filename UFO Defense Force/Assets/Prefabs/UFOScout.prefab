@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -4766754881392236197}
   - component: {fileID: -6590821403238924856}
   - component: {fileID: 6940667874189669617}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UFOScout
   m_TagString: Enemy
   m_Icon: {fileID: 0}

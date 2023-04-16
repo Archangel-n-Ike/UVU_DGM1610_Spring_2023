@@ -7,23 +7,29 @@ public class ShieldPickup : MonoBehaviour
 {
     void Start()
     {
-        GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
+        /*GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
         Physics.IgnoreCollision(enemy.GetComponent<Collider>(), GetComponent<Collider>());
         GameObject laser = GameObject.FindGameObjectWithTag("Laser");
-        Physics.IgnoreCollision(laser.GetComponent<Collider>(), GetComponent<Collider>());
+        Physics.IgnoreCollision(laser.GetComponent<Collider>(), GetComponent<Collider>());*/
     }
+
+    /*void OnCollisionEnter(Collider other)
+    {
+        if (Collision.gameObject.tag == "Pickup")
+        {
+            Physics.IgnoreCollision(Collision.collider, GetComponent<Collider>());
+        }
+    }*/
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            Pickup();
-        }
+        Debug.Log("Shield Get: + 50 Shield!");
+        Destroy(gameObject);
     }
 
-    void Pickup()
+    /*void Pickup()
     {
         Debug.Log ("Shield get! (+50 hp)");
-    }
+    }*/
 
 }

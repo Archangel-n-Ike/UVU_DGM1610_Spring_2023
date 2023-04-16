@@ -9,7 +9,6 @@ public class PickupSpawnBehavior : MonoBehaviour
     private float spawnRangeX = 19f;
     private float spawnPosZ = 19f;
     private float startDelay = 5f;
-    private float spawnInterval = 20f;
     private float spawnIntRange = 20f;
 
     void Start()

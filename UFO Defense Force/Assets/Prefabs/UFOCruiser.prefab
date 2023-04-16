@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2295923931196013205}
   - component: {fileID: -845010060038422478}
   - component: {fileID: -7119176818496657719}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: UFOCruiser
   m_TagString: Enemy
   m_Icon: {fileID: 0}
