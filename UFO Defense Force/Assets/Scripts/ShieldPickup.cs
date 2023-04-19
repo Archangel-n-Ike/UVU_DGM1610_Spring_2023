@@ -5,31 +5,12 @@ using UnityEngine.Events;
 
 public class ShieldPickup : MonoBehaviour
 {
-    void Start()
-    {
-        /*GameObject enemy = GameObject.FindGameObjectWithTag("Enemy");
-        Physics.IgnoreCollision(enemy.GetComponent<Collider>(), GetComponent<Collider>());
-        GameObject laser = GameObject.FindGameObjectWithTag("Laser");
-        Physics.IgnoreCollision(laser.GetComponent<Collider>(), GetComponent<Collider>());*/
-    }
-
-    /*void OnCollisionEnter(Collider other)
-    {
-        if (Collision.gameObject.tag == "Pickup")
-        {
-            Physics.IgnoreCollision(Collision.collider, GetComponent<Collider>());
-        }
-    }*/
+    public UnityEvent startEvent;
 
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Shield Get: + 50 Shield!");
+        startEvent.Invoke();
         Destroy(gameObject);
     }
-
-    /*void Pickup()
-    {
-        Debug.Log ("Shield get! (+50 hp)");
-    }*/
-
 }
