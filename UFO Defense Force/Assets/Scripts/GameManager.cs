@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public bool isGameOver;
+    public static bool isGameOver;
     private GameObject gameOverText;
 
     void Awake()

@@ -10,6 +10,12 @@ public class PlayerController : MonoBehaviour
     public Transform blaster;
     public GameObject laser;
     public GameObject shield;
+    public GameManager gameManager;
+
+    void Start()
+    {
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>(); // reference GameManager script on GameManager object
+    }
 
     void Update()
     {
@@ -32,7 +38,7 @@ public class PlayerController : MonoBehaviour
         }
 
         // Create laser at the blaster's location (position + rotation)
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && GameManager.isGameOver == false)
         {
             Instantiate(laser, blaster.transform.position, laser.transform.rotation);
         }
