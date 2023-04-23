@@ -11,10 +11,13 @@ public class PlayerController : MonoBehaviour
     public GameObject laser;
     public GameObject shield;
     public GameManager gameManager;
+    public AudioClip laserSound;
+    private AudioSource playerAudio;
 
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>(); // reference GameManager script on GameManager object
+        playerAudio = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -41,6 +44,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && GameManager.isGameOver == false)
         {
             Instantiate(laser, blaster.transform.position, laser.transform.rotation);
+            playerAudio.PlayOneShot(laserSound, 1.0f);
         }
     }
     
